@@ -1,1 +1,29 @@
 
+
+
+
+
+# computer asks are we there yet?
+# user answers yes or no
+# computer checks answer
+# computer says yay if yes
+# computer says aww if no and repeats question until yes
+
+'''
+variables needed
+-user answer
+-break the loop
+
+if and else to make decision based on answer
+
+while loop
+
+'''
+
+#set variables
+str_answer = ''
+bool_askagin = True
+
+while bool_askagin == True:
+    print('Are we there yet')
+    str_answer = input("")
